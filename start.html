@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>🏠 星域起始页 · Beta</title>
+    <link rel="stylesheet" href="beginPageCss1.css" type="text/css">
+  </head>
+  <body>
+    <div class="backgroundBox1">
+      <div class="backgroundBox2">
+        <!-- backgroundFormStyle盒子里面放的是整个搜索框 -->
+        <!-- 这里使用百度搜索引擎。 -->
+        <div id="backgroundFormStyle">
+          <form action="https://www.bing.com.cn/s" method="get" target="_parent" id="searchForm">
+            <input type="hidden" name="hiddenInput" value="3"/>
+            <input type="text" name="wd" placeholder="在百度搜索,或输入一个网址......" id="searchInput" autocomplete="off"/>
+            <input type="submit" value="" id="confirmInput"/>
+            <!-- 确定按钮简化为一个小圆圈。 -->
+          </form>
+        </div>
+        <div class="iconBackBoxAll">
+          <!-- 每一个网站入口包含两个信息，图片和名称。 -->
+          <!-- 在href中填写网站的地址，p标签中填写名字。 -->
+          <!-- 不涉及JavaScript的话，建议使用a标签实现链接。 -->
+          <a class="iconBackBox" href="https://www.bilibili.com/">
+            <img src="icon/bilibili.png" alt="">
+            <!-- src是图片的地址，alt是图片无法显示时的文字 -->
+            <div>
+              <p>bilibili</p>
+            </div>
+          </a>
+          <a class="iconBackBox" href="https://github.com/">
+            <img src="icon/github.png" alt="">
+            <div>
+              <p>github</p>
+            </div>
+          </a>
+          <a class="iconBackBox" href="https://www.csdn.net/">
+            <img src="icon/csdn.png" alt="">
+            <div>
+              <p>csdn</p>
+            </div>
+          </a>
+          <a class="iconBackBox" href="https://www.iconfont.cn/">
+            <img src="icon/iconfont.png" alt="">
+            <div>
+              <p>iconfont</p>
+            </div>
+          </a>
+          <a class="iconBackBox" href="https://www.aliyun.com/">
+            <img src="icon/阿里云.png" alt="">
+            <div>
+              <p>阿里云</p>
+            </div>
+          </a>
+          <a class="iconBackBox" href="https://www.cnki.net/">
+            <img src="icon/中国知网.png" alt="">
+            <div>
+              <p>中国知网</p>
+            </div>
+          </a>
+          <a class="iconBackBox" href="https://leetcode-cn.com/">
+            <img src="icon/LeetCode.png" alt="">
+            <div>
+              <p>LeetCode</p>
+            </div>
+          </a>
+          <a class="iconBackBox" href="http://www.xjtu.edu.cn/">
+            <img src="icon/星辰帝国.png" alt="">
+            <div>
+              <p>星辰帝国</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
